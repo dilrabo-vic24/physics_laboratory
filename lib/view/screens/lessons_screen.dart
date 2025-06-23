@@ -33,8 +33,11 @@ class LessonsScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   CupertinoPageRoute(
-                    builder: (context) =>
-                        DetailsScreen(lessonId: lesson.id, modulId: modulId),
+                    builder: (context) => DetailsScreen(
+                      lessonId: lesson.id,
+                      modulId: modulId,
+                      lessonName: lesson.lessonName,
+                    ),
                   ),
                 );
               },
@@ -59,9 +62,12 @@ class LessonsScreen extends StatelessWidget {
                             text: "${index + 1} - dars",
                             fontWeight: FontWeight.bold,
                           ),
-                          customTextStyle(
-                            text: lesson.lessonName,
-                            fontSize: 14,
+                          SizedBox(
+                            width: 300,
+                            child: customTextStyle(
+                              text: lesson.lessonName,
+                              fontSize: 14,
+                            ),
                           ),
                         ],
                       ),

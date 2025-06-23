@@ -5,8 +5,9 @@ List<Map<String, dynamic>> mexanikaLessons = [
     "texts": [
       "O'rtacha tezlik - jism bosib o'tgan yo'lning shu yo'lni bosib o'tishga ketgan vaqtga nisbati.",
       "\$\$v_{o'rt} = \\frac{S_{um}}{t_{um}}\$\$",
-      "formula orqali topiladi. Bu yerda Sum – bosib o’tilgan umumiy masofa (m); tum – shu yo’lni bosib o’tish uchun ketgan umumiy vaqt (s); vo'rt – o’rtacha tezlik (m/s).",
+      "formula orqali topiladi. Bu yerda S_um – bosib o’tilgan umumiy masofa (m); t_um – shu yo’lni bosib o’tish uchun ketgan umumiy vaqt (s); v_o'rt – o’rtacha tezlik (m/s).",
       "Oniy tezlik —aynan biror vaqtdagi tezlik. Masalan, avtomobilning spidometrida ko‘rsatilgan tezlik — bu oniy tezlik.",
+      "assets/images/oniy_tez.png",
       "Tekis harakat – jism doimiy tezlikda, ya’ni tezligi o‘zgarmasdan harakat qiladigan holatdir. Jism har bir teng vaqt oralig‘ida bir xil masofani bosib o‘tadi.",
       "\$\$S=vt\$\$",
       "Tezlanuvchan harakat – jismning tezligi vaqt o‘tishi bilan o‘zgaradigan harakatidir.",
@@ -20,7 +21,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "lab_desc":
         "Suv tomib turadigan idish aravacha ustiga qo’yib, ip orqali ikkinchi tomoniga jism osiladi. Harakat davomida tomayotgan suv tomchilari orasidagi masofalarga qarab harakat turini tahlil qiling.",
-    "lab_image": "lab1-1.png",
+    "lab_image": ["assets/lab/lab1-1.png"],
     "question":
         "Avval yorug‘ligi ko‘rinadi, so‘ng ovozi eshitiladi, keyin shamoli, oxirida o‘zi keladi. Bu nima?",
     "resources": ["https://youtube.com/shorts/H-qNPV4WSsE?si=gs6ukclCCDbTlUme"],
@@ -29,7 +30,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     "texts": [
       "Jism tezligining o‘zgarishiga tezlanish deyiladi.",
       "\$\$a = \\frac{v - v_0}{t}\$\$",
-      "orqali topiladi. v0 - boshlang’ich tezlik (m/s), v - harakat boshlangandan t (s) vaqt o’tgandan keyingi tezligi (m/s), a – tezlanish (m/s²).",
+      "orqali topiladi. v_0 - boshlang’ich tezlik (m/s), v - harakat boshlangandan t (s) vaqt o’tgandan keyingi tezligi (m/s), a – tezlanish (m/s²).",
       "Jismning tekis tezlanuvchan harakatda bosib o’tilgan yo’l:",
       "\$\$S = v_0 t + \\frac{1}{2} a t^2\$\$",
       "Velosipedchi harakatni boshlaganda avval oyoq bilan pedalni sekin aylantiradi, keyin asta-sekin tezlik ortadi. Demak, uning tezligi vaqtga qarab o‘zgaradi — tezlanish.",
@@ -45,7 +46,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     "lab_tools": ["- chizg’ich", "- sekundomer"],
     "lab_desc":
         "Chizg’ichni qo’yib yuborganda uni anglab, tutib olish uchun bildirgan reaksiya vaqtingizni hisoblab ko’ring.",
-    "lab_image": "lab1-2.png",
+    "lab_image": ["assets/lab/lab1-2.png"],
     "question":
         "Liftda odam tekis, tezlanuvchan yoki sekinlanuvchan harakat bo’layotganin qanday farqlashi mumkin?",
     "resources": ["https://youtu.be/Af9lRX4xsr0?si=GwC45AS-SB3E8EZj"],
@@ -67,7 +68,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "lab_desc":
         "Biri issiq va ikkinchisi sovuq bo’lgan suvli stakanga 2 xil rang qo’shiladi. Sovuq suvli stakan ustiga issiq suvli stakan ehtiyotkorlik bilan ag’darib qo’yilsa aralashadimi? Issiq suv zichligi kichkina bo’lgani uchun tepada qoladi, sovuq suv zichligi esa katta - pastda bo’ladi va bular aralashib ketmaydi. Qanday holatda turli haroratdagi suvlar bir-biri bilan aralshib ketmasligini kuzating.",
-    "lab_image": "lab1-3.png",
+    "lab_image": ["assets/lab/lab1-3.png"],
     "question": "1 litr suv og‘irmi yoki 1 litr yog‘?",
     "resources": ["https://youtu.be/DuwzHG7EGc8?si=LqUSqcFG_dPTeamV"],
   },
@@ -89,7 +90,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     "lab_tools": ["- Ip va unga osilgan jism", "- sekundomer"],
     "lab_desc":
         "Kichikroq jismni ipga bog’lab uni aylantirib, aylanish davri, chastotasi va burchak tezligini hisoblang. Ip uzunligini o’zgartirib, kattaliklarni radiusga qanday bog’langanligini aniqlang.",
-    "lab_image": "lab1-4.png",
+    "lab_image": null,
     "question":
         "Nega mashinaning g‘ildiragi tez yurganda kamera yoki telefon ekranida u teskari aylana boshlagandek ko‘rinadi, ba’zida esa umuman to‘xtab qolgandek tuyuladi?",
     "resources": ["https://youtube.com/shorts/3Wq9Vb0E430?si=TDXSg11yHOuKaRCS"],
@@ -111,7 +112,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "lab_desc":
         "1-tajriba: Tagida va yonida teshigi bor idishni yuqoridan tashlab yuborsa, qaysi biridan suv chiqmaydi?\n\n2-tajriba: Ipga bog’langan plastik idish ustiga suvli stakan qo’yib aylantiring va qaysi holatda suv to’kilmasligini tahlil qiling.",
-    "lab_image": "lab1-5.png",
+    "lab_image": ["assets/lab/lab1-5.png", "assets/lab/lab1-5b.png"],
     "question": "Kosmik kema ichida suv tomchisi qanday shaklda bo’ladi?",
     "resources": ["https://youtube.com/shorts/2CCyVSNHvGM?si=NfbPfKKKY66zfC2S"],
   },
@@ -135,7 +136,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "lab_desc":
         "1-tajriba: Suv bilan liq to’la stakan ichida nechta skripka tashlasa suv to’kilishini kuzating va sababini tahlil qiling.\n\n2-tajriba: Temir setkadan benzin va suv aralashmasini o’tkazing. Qaysi suyuqlik setkadan o’tib, qaysi suyuqlik o’tmaydi?",
-    "lab_image": "lab1-6.png",
+    "lab_image": ["assets/lab/lab1-6.png", "assets/lab/lab1-6b.png"],
     "question": "Nega ayrim hayvonlar suvda cho'kmasdan harakat qiladi?",
     "resources": [
       "https://youtube.com/shorts/Iv720zvzrjQ?si=_XyykrUoU3YP8Npr",
@@ -156,7 +157,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "lab_desc":
         "Yumshoq sirtni tekislab, har xil buyumlarni birma-bir sirtga qo‘ying. Har birining sirtga qoldirgan izini kuzating va sirtga ko’rsatayotgan bosimini taqqoslang.",
-    "lab_image": "lab1-7.png",
+    "lab_image": null,
     "question":
         "Nima uchun igna o‘tkir uchi bilan matoni oson teshadi, lekin orqa tomoni bilan teshib bo'lmaydi, axir kuch ikkala holatda ham bir xil-ku?",
     "resources": ["https://youtube.com/shorts/aTlVQE20yQ8?si=J8pURCWHobPDeDig"],
@@ -176,7 +177,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     "lab_tools": ["- Plastik idish", "- Idishni teshish uchun igna", "- Suv"],
     "lab_desc":
         "Plastik idishda turli balandliklarda teshik hosil qilib, ichidagi suvning oqish tezligini solishtiring.",
-    "lab_image": "lab1-8.png",
+    "lab_image": null,
     "question":
         "Nega suvga sho‘ng‘iyotgan odam chuqurroq tushgani sayin quloqlarida bosim kuchayadi, ammo butun tana bosimni bir xil sezmaydi?",
     "resources": [
@@ -195,7 +196,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     "lab_tools": ["- Skater (skeytbord)", "- Skater ustiga qo’yishga narsalar"],
     "lab_desc":
         "Skater ustidagi narsalarni asta va tez torting. Bu ikki holatda skater ustidagi narsalarning harakatini kuzating.",
-    "lab_image": "lab1-9.png",
+    "lab_image": null,
     "question":
         "Stakanni qimirlatmasdan uning tagidagi pulni qanday olish mumkin?",
     "resources": ["https://youtube.com/shorts/MRVEf6fQ4AQ?si=OM9wcPWY_-POWcVL"],
@@ -211,7 +212,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     "video": "",
     "lab_tools": [],
     "lab_desc": "",
-    "lab_image": "",
+    "lab_image": [],
     "question":
         "Agar Superman va mushuk ikkalasi bir xil kuch bilan prujinada sakrasa, qaysi biri osmonga yaqinroq uchadi? Nega?",
     "resources": [
@@ -235,7 +236,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "lab_desc":
         "1-tajriba: Ikkita vilkani bitta kichkina yog’och bo’lagi bilan muvozanat holatiga keltirib qo’yishga urinib ko’ring.\n\n2-tajriba: 2 ta qalin kitob varaqlarini bir-birining ichiga qilib joylashtirib chiqing. Keyin ularni ajratishga harakat qiling, nega ularni ajratish katta kuch talab qiladi?",
-    "lab_image": "lab1-11.png",
+    "lab_image": ["assets/lab/lab1-11.png"],
     "question":
         "Stulda o’tirgan 60 kg massali Zuhra oyog’ini stul tagiga bukmasdan yoki gavdasini oldinga egmasdan to’g’ri o’rnidan turishi uchun qancha kuch sarflashi kerak?",
     "resources": ["https://youtube.com/shorts/zMIYFCuZ_84?si=SxI8CW5l-Lv4JB7M"],
@@ -253,7 +254,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     "lab_tools": ["2 ta stakan", "Sham", "Sim"],
     "lab_desc":
         "Suratda ko'rsatilganidek aylanadigan shamli mexanizm yasang. Stakanning aylanish sababini tahlil qiling.",
-    "lab_image": "lab1-12.png",
+    "lab_image": ["assets/lab/lab1-12.png"],
     "question": "Nega inson sakraganda oyoqlarini bukib oladi?",
     "resources": ["https://youtube.com/shorts/dl4rDzWCTh4?si=evuYRPTL0x0DvOCS"],
   },
@@ -273,7 +274,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "lab_desc":
         "Ping-pong to‘pini og‘ir to‘pning ustiga qo‘ying va ikkalasini birgalikda balandlikdan pastga tashlang. Nega ping-pong to‘pi kutilganidan ancha baland sakraydi?",
-    "lab_image": "lab1-13.png",
+    "lab_image": null,
     "question":
         "Tezlik bilan yugurayotgan odam to‘xtaganda, uning mexanik energiyasi qayerga ketadi? U shunchaki “yo‘q” bo‘lib qoladimi?",
     "resources": [
@@ -296,7 +297,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     "lab_tools": ["- 2 ta ping-pong koptogi", "- Ip"],
     "lab_desc":
         "Ipga ping-pong koptogini bog’lab, mustahkam joyga ilib qo’ying. Birini harakatga keltirib, ikkinchisining harakatini kuzating va tahlil qiling.",
-    "lab_image": "lab1-14.png",
+    "lab_image": ["assets/lab/lab1-14.png"],
     "question":
         "Qattiq ko‘prik ustida bir guruh askar bir xil ritmda birga yurib o‘tsa, nima uchun ba’zi hollarda ko‘prik tebranib, hatto qulab tushishi mumkin?",
     "resources": ["https://youtube.com/shorts/N-QQ8s6eNBY?si=7JUICtfNJVvmE0w3"],
@@ -318,7 +319,7 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "lab_desc":
         "Har ikkala stakanning tagiga teshik qilib, iplarni o‘tkazing va ichkaridan tugun qilib mahkamlang. Ipni tarang holda ushlab, bir kishi gapirsin, ikkinchisi stakanni qulog‘iga tutib eshitsin.",
-    "lab_image": "lab1-15.png",
+    "lab_image": null,
     "question":
         "Agar tovush to‘lqin bo‘lsa, nega o‘zingizning ovozingizni boshqalar eshitadiganidan farqli eshitasiz?",
     "resources": ["https://youtube.com/shorts/_NH59iK7AUI?si=jaiPjEkwaUN5c8rY"],

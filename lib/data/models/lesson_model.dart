@@ -3,7 +3,7 @@ class LessonModel {
   final String? video;
   final List<String>? labTools;
   final String? labDesc;
-  final String? labImage;
+  final List<String>? labImage;
   final String? question;
   final List<String>? resources;
 
@@ -23,7 +23,7 @@ class LessonModel {
       video: json['video'] as String?,
       labTools: (json['lab_tools'] as List<dynamic>?)?.map((e) => e.toString()).toList(),
       labDesc: json['lab_desc'] as String?,
-      labImage: json['lab_image'] as String?,
+      labImage: (json['lab_image'] as List<dynamic>?)?.map((e) => e.toString()).toList(),
       question: json['question'] as String?,
       resources: (json['resources'] as List<dynamic>?)?.map((e) => e.toString()).toList(),
     );

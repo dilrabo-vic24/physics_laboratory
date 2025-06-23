@@ -21,7 +21,7 @@ class OngoingScreen extends StatelessWidget {
               ClipRRect(
                 borderRadius: BorderRadius.circular(50),
                 child: Image.asset(
-                  "assets/physics.jpg",
+                  "assets/images/physics.jpg",
                   height: 300,
                   width: double.infinity,
                   fit: BoxFit.cover,

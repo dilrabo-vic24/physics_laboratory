@@ -10,10 +10,12 @@ import 'package:youtube_player_flutter/youtube_player_flutter.dart';
 class DetailsScreen extends StatefulWidget {
   final int modulId;
   final int lessonId;
+  final String lessonName;
   const DetailsScreen({
     super.key,
     required this.modulId,
     required this.lessonId,
+    required this.lessonName,
   });
 
   @override
@@ -54,39 +56,59 @@ class _DetailsScreenState extends State<DetailsScreen> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 3, // 3 ta tab borligini bildiramiz
+      length: 3,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("Tekis va tezlanuvchan harakat"),
-          bottom: const TabBar(
-            indicatorColor: AppColors.mainColor,
-            labelColor: AppColors.mainColor,
-            unselectedLabelColor: Colors.grey,
-            tabs: [
-              Tab(height: 60, icon: Icon(Icons.video_library), text: "Video"),
-              Tab(height: 60, icon: Icon(Icons.image), text: "Nazariya"),
-              Tab(
-                height: 60,
-                icon: Icon(Icons.label_important_outline_rounded),
-                text: "Laboratoriya",
+          title: Text(widget.lessonName, maxLines: 2),
+          bottom: PreferredSize(
+            preferredSize: Size.fromHeight(60),
+            child: Padding(
+              padding: EdgeInsets.symmetric(horizontal: 16),
+              child: TabBar(
+                indicator: BoxDecoration(
+                  color: AppColors.lightBlueBgColor,
+                  borderRadius: BorderRadius.all(Radius.circular(10)),
+                ),
+                indicatorSize: TabBarIndicatorSize.tab,
+                labelColor: AppColors.mainColor,
+                unselectedLabelColor: Colors.grey,
+                tabs: const [
+                  Tab(
+                    height: 50,
+                    icon: Icon(Icons.video_library),
+                    text: "Video",
+                  ),
+                  Tab(height: 50, icon: Icon(Icons.image), text: "Nazariya"),
+                  Tab(
+                    height: 50,
+                    icon: Icon(Icons.label_important_outline_rounded),
+                    text: "Laboratoriya",
+                  ),
+                ],
               ),
-            ],
+            ),
           ),
         ),
         body: TabBarView(
           children: [
-            VideoScreen(
-              controller: _controller,
-              question: data?.question,
-              resources: data?.resources,
-            ),
-            NazariyaScreen(texts: data?.texts ?? []),
+            data != null
+                ? VideoScreen(
+                    controller: _controller,
+                    question: data?.question,
+                    resources: data?.resources,
+                  )
+                : Center(child: Text("Ma'lumot topilmadi")),
+            data != null
+                ? NazariyaScreen(texts: data!.texts!)
+                : Center(child: Text("Ma'lumot topilmadi")),
 
-            LabScreen(
-              labDesc: data!.labDesc,
-              labImage: data!.labImage,
-              labTools: data!.labTools,
-            ),
+            data != null
+                ? LabScreen(
+                    labDesc: data!.labDesc,
+                    labImages: data!.labImage,
+                    labTools: data!.labTools,
+                  )
+                : Center(child: Text("Ma'lumot topilmadi")),
           ],
         ),
       ),

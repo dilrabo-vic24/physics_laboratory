@@ -3,13 +3,13 @@ import 'package:flutter/material.dart';
 
 class LabScreen extends StatelessWidget {
   final List<String>? labTools;
+  final List<String>? labImages;
   final String? labDesc;
-  final String? labImage;
   const LabScreen({
     super.key,
     required this.labTools,
     required this.labDesc,
-    required this.labImage,
+    required this.labImages,
   });
 
   @override
@@ -38,6 +38,7 @@ class LabScreen extends StatelessWidget {
           ),
           labTools != null
               ? Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: List.generate(labTools!.length, (index) {
                     return customTextStyle(
                       text: labTools![index],
@@ -49,7 +50,17 @@ class LabScreen extends StatelessWidget {
               : SizedBox.shrink(),
 
           const SizedBox(height: 16),
-          labImage != null ? Image.asset(labImage!) : SizedBox.shrink(),
+
+          labImages != null
+              ? Column(
+                  children: List.generate(labImages!.length, (index) {
+                    return Padding(
+                      padding: const EdgeInsets.all(8.0),
+                      child: Image.asset(labImages![index]),
+                    );
+                  }),
+                )
+              : SizedBox.shrink(),
         ],
       ),
     );

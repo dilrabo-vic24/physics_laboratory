@@ -9,7 +9,8 @@ Text customTextStyle({
 }) {
   return Text(
     text,
-    textAlign: TextAlign.start,
+    maxLines: 2,
+    textAlign: textAlign ?? TextAlign.start,
     style: TextStyle(
       fontSize: fontSize ?? 16,
       fontWeight: fontWeight ?? FontWeight.normal,

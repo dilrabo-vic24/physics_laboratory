@@ -62,6 +62,7 @@ class HomeScreen extends StatelessWidget {
                       Icon(section.icon, size: 80, color: AppColors.mainColor),
                       const SizedBox(height: 10),
                       customTextStyle(
+                        textAlign: TextAlign.center,
                         text: section.modulName,
                         fontSize: 18,
                         fontWeight: FontWeight.bold,
