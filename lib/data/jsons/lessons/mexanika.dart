@@ -17,14 +17,15 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "video": "xoxP3ccR5eI",
     "lab_tools": [
-      "- suv tomib turadigan aravacha va uni harakatga keltiruvchi jism",
+      ["- suv tomib turadigan aravacha va uni harakatga keltiruvchi jism"],
     ],
-    "lab_desc":
-        "Suv tomib turadigan idish aravacha ustiga qo’yib, ip orqali ikkinchi tomoniga jism osiladi. Harakat davomida tomayotgan suv tomchilari orasidagi masofalarga qarab harakat turini tahlil qiling.",
+    "lab_desc": [
+      "Suv tomib turadigan idish aravacha ustiga qo’yib, ip orqali ikkinchi tomoniga jism osiladi. Harakat davomida tomayotgan suv tomchilari orasidagi masofalarga qarab harakat turini tahlil qiling.",
+    ],
     "lab_image": ["assets/lab/lab1-1.png"],
     "question":
         "Avval yorug‘ligi ko‘rinadi, so‘ng ovozi eshitiladi, keyin shamoli, oxirida o‘zi keladi. Bu nima?",
-    "resources": ["https://youtube.com/shorts/H-qNPV4WSsE?si=gs6ukclCCDbTlUme"],
+    "resources": ["H3t-hvzvAd4", "H-qNPV4WSsE"],
   },
   {
     "texts": [
@@ -43,13 +44,16 @@ List<Map<String, dynamic>> mexanikaLessons = [
       "5. Avtomobil tormoz bosganda sekinlanuvchan harakat qiladi.",
     ],
     "video": "",
-    "lab_tools": ["- chizg’ich", "- sekundomer"],
-    "lab_desc":
-        "Chizg’ichni qo’yib yuborganda uni anglab, tutib olish uchun bildirgan reaksiya vaqtingizni hisoblab ko’ring.",
+    "lab_tools": [
+      ["- chizg’ich", "- sekundomer"],
+    ],
+    "lab_desc": [
+      "Chizg’ichni qo’yib yuborganda uni anglab, tutib olish uchun bildirgan reaksiya vaqtingizni hisoblab ko’ring.",
+    ],
     "lab_image": ["assets/lab/lab1-2.png"],
     "question":
-        "Liftda odam tekis, tezlanuvchan yoki sekinlanuvchan harakat bo’layotganin qanday farqlashi mumkin?",
-    "resources": ["https://youtu.be/Af9lRX4xsr0?si=GwC45AS-SB3E8EZj"],
+        "Liftda odam tekis, tezlanuvchan yoki sekinlanuvchan harakat qilayotganini qanday his qiladi?",
+    "resources": ["Af9lRX4xsr0"],
   },
   {
     "texts": [
@@ -61,16 +65,14 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "video": "https://youtu.be/SV4XUxDMSY4?si=cKkBzmTnUqniyZT5",
     "lab_tools": [
-      "- ikki xil rang",
-      "- 2 ta stakan",
-      "- sovuq va issiq suv",
-      "- qog’oz",
+      ["- ikki xil rang", "- 2 ta stakan", "- sovuq va issiq suv", "- qog’oz"],
     ],
-    "lab_desc":
-        "Biri issiq va ikkinchisi sovuq bo’lgan suvli stakanga 2 xil rang qo’shiladi. Sovuq suvli stakan ustiga issiq suvli stakan ehtiyotkorlik bilan ag’darib qo’yilsa aralashadimi? Issiq suv zichligi kichkina bo’lgani uchun tepada qoladi, sovuq suv zichligi esa katta - pastda bo’ladi va bular aralashib ketmaydi. Qanday holatda turli haroratdagi suvlar bir-biri bilan aralshib ketmasligini kuzating.",
+    "lab_desc": [
+      "Biri issiq va ikkinchisi sovuq bo’lgan suvli stakanga 2 xil rang qo’shiladi. Sovuq suvli stakan ustiga issiq suvli stakan ehtiyotkorlik bilan ag’darib qo’yilsa aralashadimi? Issiq suv zichligi kichkina bo’lgani uchun tepada qoladi, sovuq suv zichligi esa katta - pastda bo’ladi va bular aralashib ketmaydi. Qanday holatda turli haroratdagi suvlar bir-biri bilan aralshib ketmasligini kuzating.",
+    ],
     "lab_image": ["assets/lab/lab1-3.png"],
     "question": "1 litr suv og‘irmi yoki 1 litr yog‘?",
-    "resources": ["https://youtu.be/DuwzHG7EGc8?si=LqUSqcFG_dPTeamV"],
+    "resources": ["DuwzHG7EGc8"],
   },
   {
     "texts": [
@@ -87,13 +89,16 @@ List<Map<String, dynamic>> mexanikaLessons = [
       "– Sun’iy yo‘ldoshlar Yer atrofida aylanishi orqali aloqa, GPS va ob-havo kuzatuvi amalga oshiriladi.",
     ],
     "video": "",
-    "lab_tools": ["- Ip va unga osilgan jism", "- sekundomer"],
-    "lab_desc":
-        "Kichikroq jismni ipga bog’lab uni aylantirib, aylanish davri, chastotasi va burchak tezligini hisoblang. Ip uzunligini o’zgartirib, kattaliklarni radiusga qanday bog’langanligini aniqlang.",
-    "lab_image": null,
+    "lab_tools": [
+      ["- Ip va unga osilgan jism", "- sekundomer"],
+    ],
+    "lab_desc": [
+      "Kichikroq jismni ipga bog’lab uni aylantirib, aylanish davri, chastotasi va burchak tezligini hisoblang. Ip uzunligini o’zgartirib, kattaliklarni radiusga qanday bog’langanligini aniqlang.",
+    ],
+    "lab_image": [],
     "question":
         "Nega mashinaning g‘ildiragi tez yurganda kamera yoki telefon ekranida u teskari aylana boshlagandek ko‘rinadi, ba’zida esa umuman to‘xtab qolgandek tuyuladi?",
-    "resources": ["https://youtube.com/shorts/3Wq9Vb0E430?si=TDXSg11yHOuKaRCS"],
+    "resources": ["3Wq9Vb0E430"],
   },
   {
     "texts": [
@@ -105,16 +110,21 @@ List<Map<String, dynamic>> mexanikaLessons = [
       "\$\$F = \\frac{mv^2}{R}\$\$",
       "Masalan, mashina burilishda tez harakat qilsa, yo‘lovchi tanasi burilish tashqarisiga tomon og‘adi – bu markazdan qochma kuchning ta’siridir. Kir yuvish mashinasining barabanida kiyimlardan suv ajratilishi ham shu kuch yordamida amalga oshadi.",
     ],
-    "video": "https://youtube.com/shorts/dwsZZPiaFPI?si=dBdndNulNXif5kA-",
+    "video": "dwsZZPiaFPI",
     "lab_tools": [
-      "- Yonida va tagida teshigi bor idish",
-      "- Ipga bog'langan plastik idish",
+      [
+        "- Yonida va tagida teshigi bor idish",
+        "- Ipga bog'langan plastik idish",
+      ],
+      [],
     ],
-    "lab_desc":
-        "1-tajriba: Tagida va yonida teshigi bor idishni yuqoridan tashlab yuborsa, qaysi biridan suv chiqmaydi?\n\n2-tajriba: Ipga bog’langan plastik idish ustiga suvli stakan qo’yib aylantiring va qaysi holatda suv to’kilmasligini tahlil qiling.",
+    "lab_desc": [
+      "1-tajriba: Tagida va yonida teshigi bor idishni yuqoridan tashlab yuborsa, qaysi biridan suv chiqmaydi?\n\n2-tajriba: Ipga bog’langan plastik idish ustiga suvli stakan qo’yib aylantiring va qaysi holatda suv to’kilmasligini tahlil qiling.",
+      "2-tajriba: Ipga bog’langan plastic idish ustiga suvli stakan qo’yib aylantiring va qaysi holatda suv to’kilmasligini tahlil qiling.",
+    ],
     "lab_image": ["assets/lab/lab1-5.png", "assets/lab/lab1-5b.png"],
     "question": "Kosmik kema ichida suv tomchisi qanday shaklda bo’ladi?",
-    "resources": ["https://youtube.com/shorts/2CCyVSNHvGM?si=NfbPfKKKY66zfC2S"],
+    "resources": ["2CCyVSNHvGM"],
   },
   {
     "texts": [
@@ -129,19 +139,21 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "video": "",
     "lab_tools": [
-      "- Suv bilan to’lgan stakan",
-      "- Skripkalar",
-      "- Teshiklari mayda bo’lgan temir setka",
-      "- Oz miqdorda benzin va suv aralashmasi",
+      [
+        "- Suv bilan to’lgan stakan",
+        "- Skripkalar",
+        "- Teshiklari mayda bo’lgan temir setka",
+        "- Oz miqdorda benzin va suv aralashmasi",
+      ],
+      [],
     ],
-    "lab_desc":
-        "1-tajriba: Suv bilan liq to’la stakan ichida nechta skripka tashlasa suv to’kilishini kuzating va sababini tahlil qiling.\n\n2-tajriba: Temir setkadan benzin va suv aralashmasini o’tkazing. Qaysi suyuqlik setkadan o’tib, qaysi suyuqlik o’tmaydi?",
+    "lab_desc": [
+      "1-tajriba: Suv bilan liq to’la stakan ichida nechta skripka tashlasa suv to’kilishini kuzating va sababini tahlil qiling.\n\n2-tajriba: Temir setkadan benzin va suv aralashmasini o’tkazing. Qaysi suyuqlik setkadan o’tib, qaysi suyuqlik o’tmaydi?",
+      "2-tajriba: Temir setkasidan benzi va suv aralashmasini o’tkazing. Qaysi suyquqlik setkadan o’tib, qaysi suyuqlik o’tmaydi? ",
+    ],
     "lab_image": ["assets/lab/lab1-6.png", "assets/lab/lab1-6b.png"],
     "question": "Nega ayrim hayvonlar suvda cho'kmasdan harakat qiladi?",
-    "resources": [
-      "https://youtube.com/shorts/Iv720zvzrjQ?si=_XyykrUoU3YP8Npr",
-      "https://youtube.com/shorts/EmV6J-22tcM?si=QEWejZ1TQL2lUykI",
-    ],
+    "resources": ["5kJ52xMm3QI", "Iv720zvzrjQ", "EmV6J-22tcM"],
   },
   {
     "texts": [
@@ -151,16 +163,19 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "video": "",
     "lab_tools": [
-      "- Bir xil og‘irlikdagi buyumlar (masalan, tosh yoki kitob)",
-      "- Har xil shakl va yuzali tagliklar (mix, qopqoq, kvadrat taxta)",
-      "- Yumshoq sirt (plastilin, nam qum yoki un sepilgan lagan)",
+      [
+        "- Bir xil og‘irlikdagi buyumlar (masalan, tosh yoki kitob)",
+        "- Har xil shakl va yuzali tagliklar (mix, qopqoq, kvadrat taxta)",
+        "- Yumshoq sirt (plastilin, nam qum yoki un sepilgan lagan)",
+      ],
     ],
-    "lab_desc":
-        "Yumshoq sirtni tekislab, har xil buyumlarni birma-bir sirtga qo‘ying. Har birining sirtga qoldirgan izini kuzating va sirtga ko’rsatayotgan bosimini taqqoslang.",
-    "lab_image": null,
+    "lab_desc": [
+      "Yumshoq sirtni tekislab, har xil buyumlarni birma-bir sirtga qo‘ying. Har birining sirtga qoldirgan izini kuzating va sirtga ko’rsatayotgan bosimini taqqoslang.",
+    ],
+    "lab_image": [],
     "question":
         "Nima uchun igna o‘tkir uchi bilan matoni oson teshadi, lekin orqa tomoni bilan teshib bo'lmaydi, axir kuch ikkala holatda ham bir xil-ku?",
-    "resources": ["https://youtube.com/shorts/aTlVQE20yQ8?si=J8pURCWHobPDeDig"],
+    "resources": ["7G5q-tdc0iM", "aTlVQE20yQ8"],
   },
   {
     "texts": [
@@ -174,16 +189,16 @@ List<Map<String, dynamic>> mexanikaLessons = [
       "- Tibbiyotda qon bosimini tushunish va infuzion tizimlar ishlashi shu bosimga bog'liq.",
     ],
     "video": "",
-    "lab_tools": ["- Plastik idish", "- Idishni teshish uchun igna", "- Suv"],
-    "lab_desc":
-        "Plastik idishda turli balandliklarda teshik hosil qilib, ichidagi suvning oqish tezligini solishtiring.",
-    "lab_image": null,
+    "lab_tools": [
+      ["- Plastik idish", "- Idishni teshish uchun igna", "- Suv"],
+    ],
+    "lab_desc": [
+      "Plastik idishda turli balandliklarda teshik hosil qilib, ichidagi suvning oqish tezligini solishtiring.",
+    ],
+    "lab_image": [],
     "question":
         "Nega suvga sho‘ng‘iyotgan odam chuqurroq tushgani sayin quloqlarida bosim kuchayadi, ammo butun tana bosimni bir xil sezmaydi?",
-    "resources": [
-      "https://youtu.be/zd5uDlfDwgc?si=V3H64Tb44-Nqo6Hk",
-      "https://youtu.be/aVajNZCpkD0?si=IxYYUP9kqpLthS1-",
-    ],
+    "resources": ["zd5uDlfDwgc", "aVajNZCpkD0"],
   },
   {
     "texts": [
@@ -193,13 +208,16 @@ List<Map<String, dynamic>> mexanikaLessons = [
       "Masalan, odam devorni itsa, devor ham odamga orqaga itaruvchi kuch bilan javob qaytaradi. Raketa yonilg‘ini pastga otadi va natijada o‘zi yuqoriga harakatlanadi.",
     ],
     "video": "",
-    "lab_tools": ["- Skater (skeytbord)", "- Skater ustiga qo’yishga narsalar"],
-    "lab_desc":
-        "Skater ustidagi narsalarni asta va tez torting. Bu ikki holatda skater ustidagi narsalarning harakatini kuzating.",
+    "lab_tools": [
+      ["- Skater (skeytbord)", "- Skater ustiga qo’yishga narsalar"],
+    ],
+    "lab_desc": [
+      "Skater ustidagi narsalarni asta va tez torting. Bu ikki holatda skater ustidagi narsalarning harakatini kuzating.",
+    ],
     "lab_image": null,
     "question":
         "Stakanni qimirlatmasdan uning tagidagi pulni qanday olish mumkin?",
-    "resources": ["https://youtube.com/shorts/MRVEf6fQ4AQ?si=OM9wcPWY_-POWcVL"],
+    "resources": ["MRVEf6fQ4AQ"],
   },
   {
     "texts": [
@@ -210,15 +228,20 @@ List<Map<String, dynamic>> mexanikaLessons = [
       "Hayotda elastiklik kuchi prujinali divanlar, avtomobil amortizatorlari, kamon va yoylarda qo'llaniladi. Bu kuchlar zarbalarni yumshatishda muhim rol o‘ynaydi.",
     ],
     "video": "",
-    "lab_tools": [],
-    "lab_desc": "",
+    "lab_tools": [
+      [
+        "-Oddiy elastik spiral (prujina) yoki kuch o‘lchash uchun dinamometr",
+        "-Turli og‘irlikdagi yuklar (masalan, 50 g, 100 g, 200 g og‘irliklar yoki suv to‘ldirilgan kichik idishlar)",
+        "-O‘lchov chizig‘i (lineyka) yoki o‘lchov lenta.",
+      ],
+    ],
+    "lab_desc": [
+      "Prujinani stativga yoki stolning yuqori qismiga mahkamlang. Turli og‘irlikdagi yuklarni ketma-ket prujinaga osib, har bir yuk uchun prujinaning cho‘zilish uzunligini o‘lchang. sCho‘zilish uzunligini yuk massasiga nisbatan grafikka tushiring — natijada elastiklik kuchining Nyutonning ikkinchi qonuniga muvofiq chiziqli (proportsional) bog‘liqligini kuzatasiz.",
+    ],
     "lab_image": [],
     "question":
         "Agar Superman va mushuk ikkalasi bir xil kuch bilan prujinada sakrasa, qaysi biri osmonga yaqinroq uchadi? Nega?",
-    "resources": [
-      "https://youtube.com/shorts/dQGVLFNCYqA?si=Y7QbSwWn11tF-Lkc",
-      "https://youtube.com/shorts/4QBzOpzkIhE?si=NBgrZZ4U6dXItZVO",
-    ],
+    "resources": ["dQGVLFNCYqA", "4QBzOpzkIhE"],
   },
   {
     "texts": [
@@ -228,18 +251,18 @@ List<Map<String, dynamic>> mexanikaLessons = [
       "Ishqalanish kuchi – bu jismlar sirti bir-biriga tegib harakat qilganda ularning orasida paydo bo‘ladigan, harakatga teskari yo‘nalgan kuch. Ishqalanish harakatni sekinlashtiradi yoki uni to‘xtatadi.",
       "Hayotda ishqalanish kuchi juda muhim: u odamning yurishiga, mashinalarning tormozlanishiga yordam beradi. Ba'zan esa uni kamaytirish kerak bo'ladi (masalan, moylash orqali).",
     ],
-    "video": "https://youtube.com/shorts/uCsE1_dttRU?si=WgpMGi099CkfAaJf",
+    "video": "uCsE1_dttRU",
     "lab_tools": [
-      "2 ta vilka",
-      "Yog’och bo’lagi (tish tozalagich)",
-      "2 ta qalin kitob",
+      ["2 ta vilka", "Yog’och bo’lagi (tish tozalagich)", "2 ta qalin kitob"],
     ],
-    "lab_desc":
-        "1-tajriba: Ikkita vilkani bitta kichkina yog’och bo’lagi bilan muvozanat holatiga keltirib qo’yishga urinib ko’ring.\n\n2-tajriba: 2 ta qalin kitob varaqlarini bir-birining ichiga qilib joylashtirib chiqing. Keyin ularni ajratishga harakat qiling, nega ularni ajratish katta kuch talab qiladi?",
+    "lab_desc": [
+      "1-tajriba: Ikkita vilkani bitta kichkina yog’och bo’lagi bilan muvozanat holatiga keltirib qo’yishga urinib ko’ring.\n\n2-tajriba: 2 ta qalin kitob varaqlarini bir-birining ichiga qilib joylashtirib chiqing. Keyin ularni ajratishga harakat qiling, nega ularni ajratish katta kuch talab qiladi?",
+      "2-tajriba: 2 ta qalin kitoblar varaqlarini bir-birining ichiga qilib joylashtirib chiqing. Keyin ularni ajratishga harakat qiling, nega ularni ajratish katta kuch talqab qiladi? Kitoblar varaqlari orasida qanday ularni ajratish uchun qarshilik qilmoqda? ",
+    ],
     "lab_image": ["assets/lab/lab1-11.png"],
     "question":
         "Stulda o’tirgan 60 kg massali Zuhra oyog’ini stul tagiga bukmasdan yoki gavdasini oldinga egmasdan to’g’ri o’rnidan turishi uchun qancha kuch sarflashi kerak?",
-    "resources": ["https://youtube.com/shorts/zMIYFCuZ_84?si=SxI8CW5l-Lv4JB7M"],
+    "resources": ["zMIYFCuZ_84"],
   },
   {
     "texts": [
@@ -251,12 +274,15 @@ List<Map<String, dynamic>> mexanikaLessons = [
       "Reaktiv harakat – bu impulsning saqlanishiga asoslangan harakat bo‘lib, biror jismdan modda chiqib ketganda, jism teskari yo‘nalishda harakatlanadi. Masalan, raketaning parvozi.",
     ],
     "video": "",
-    "lab_tools": ["2 ta stakan", "Sham", "Sim"],
-    "lab_desc":
-        "Suratda ko'rsatilganidek aylanadigan shamli mexanizm yasang. Stakanning aylanish sababini tahlil qiling.",
+    "lab_tools": [
+      ["2 ta stakan", "Sham", "Sim"],
+    ],
+    "lab_desc": [
+      "Suratda ko'rsatilganidek aylanadigan shamli mexanizm yasang. Stakanning aylanish sababini tahlil qiling.",
+    ],
     "lab_image": ["assets/lab/lab1-12.png"],
     "question": "Nega inson sakraganda oyoqlarini bukib oladi?",
-    "resources": ["https://youtube.com/shorts/dl4rDzWCTh4?si=evuYRPTL0x0DvOCS"],
+    "resources": ["dl4rDzWCTh4"],
   },
   {
     "texts": [
@@ -269,18 +295,18 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "video": "",
     "lab_tools": [
-      "- 1 dona ping-pong to‘pi",
-      "- 1 dona og‘irroq to‘p (masalan, basketbol to‘pi)",
+      [
+        "- 1 dona ping-pong to‘pi",
+        "- 1 dona og‘irroq to‘p (masalan, basketbol to‘pi)",
+      ],
     ],
-    "lab_desc":
-        "Ping-pong to‘pini og‘ir to‘pning ustiga qo‘ying va ikkalasini birgalikda balandlikdan pastga tashlang. Nega ping-pong to‘pi kutilganidan ancha baland sakraydi?",
-    "lab_image": null,
+    "lab_desc": [
+      "Ping-pong to‘pini og‘ir to‘pning ustiga qo‘ying va ikkalasini birgalikda balandlikdan pastga tashlang. Nega ping-pong to‘pi kutilganidan ancha baland sakraydi?",
+    ],
+    "lab_image": [],
     "question":
         "Tezlik bilan yugurayotgan odam to‘xtaganda, uning mexanik energiyasi qayerga ketadi? U shunchaki “yo‘q” bo‘lib qoladimi?",
-    "resources": [
-      "https://youtube.com/shorts/LIErj3Z2Hho?si=M00-MyQSkpiLj_Ui",
-      "https://youtube.com/shorts/ZnfAw6l3qVI?si=I_xZF8VqL8W0jCkZ",
-    ],
+    "resources": ["LIErj3Z2Hho", "ZnfAw6l3qVI"],
   },
   {
     "texts": [
@@ -294,13 +320,16 @@ List<Map<String, dynamic>> mexanikaLessons = [
       "– Telefonning vibratsiyasi mexanik tebranishdir.",
     ],
     "video": "",
-    "lab_tools": ["- 2 ta ping-pong koptogi", "- Ip"],
-    "lab_desc":
-        "Ipga ping-pong koptogini bog’lab, mustahkam joyga ilib qo’ying. Birini harakatga keltirib, ikkinchisining harakatini kuzating va tahlil qiling.",
+    "lab_tools": [
+      ["- 2 ta ping-pong koptogi", "- Ip"],
+    ],
+    "lab_desc": [
+      "Ipga ping-pong koptogini bog’lab, mustahkam joyga ilib qo’ying. Birini harakatga keltirib, ikkinchisining harakatini kuzating va tahlil qiling.",
+    ],
     "lab_image": ["assets/lab/lab1-14.png"],
     "question":
         "Qattiq ko‘prik ustida bir guruh askar bir xil ritmda birga yurib o‘tsa, nima uchun ba’zi hollarda ko‘prik tebranib, hatto qulab tushishi mumkin?",
-    "resources": ["https://youtube.com/shorts/N-QQ8s6eNBY?si=7JUICtfNJVvmE0w3"],
+    "resources": ["N-QQ8s6eNBY"],
   },
   {
     "texts": [
@@ -313,16 +342,19 @@ List<Map<String, dynamic>> mexanikaLessons = [
     ],
     "video": "",
     "lab_tools": [
-      "2 dona plastik yoki qog‘oz stakan",
-      "1,5–2 metr uzunlikdagi ip yoki sim",
-      "Mix yoki igna",
+      [
+        "2 dona plastik yoki qog‘oz stakan",
+        "1,5–2 metr uzunlikdagi ip yoki sim",
+        "Mix yoki igna",
+      ],
     ],
-    "lab_desc":
-        "Har ikkala stakanning tagiga teshik qilib, iplarni o‘tkazing va ichkaridan tugun qilib mahkamlang. Ipni tarang holda ushlab, bir kishi gapirsin, ikkinchisi stakanni qulog‘iga tutib eshitsin.",
-    "lab_image": null,
+    "lab_desc": [
+      "Har ikkala stakanning tagiga teshik qilib, iplarni o‘tkazing va ichkaridan tugun qilib mahkamlang. Ipni tarang holda ushlab, bir kishi gapirsin, ikkinchisi stakanni qulog‘iga tutib eshitsin.",
+    ],
+    "lab_image": [],
     "question":
         "Agar tovush to‘lqin bo‘lsa, nega o‘zingizning ovozingizni boshqalar eshitadiganidan farqli eshitasiz?",
-    "resources": ["https://youtube.com/shorts/_NH59iK7AUI?si=jaiPjEkwaUN5c8rY"],
+    "resources": ["_NH59iK7AUI"],
   },
 ];
 

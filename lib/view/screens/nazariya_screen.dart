@@ -38,10 +38,7 @@ class NazariyaScreen extends StatelessWidget {
           } else if (_isImagePath(text)) {
             log("rasm: $text");
             // Rasm
-            return Padding(
-              padding: const EdgeInsets.symmetric(vertical: 8.0),
-              // child: Image.asset(text),
-            );
+            return Center(child: Image.asset(text));
           } else {
             // Oddiy matn
             return Padding(

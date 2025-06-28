@@ -1,5 +1,11 @@
+// lib/view/screens/details_screen.dart
+
 import 'package:fizika/core/utils/app_colors.dart';
+import 'package:fizika/data/jsons/lessons/atom_yadro.dart';
+import 'package:fizika/data/jsons/lessons/electr.dart';
 import 'package:fizika/data/jsons/lessons/mexanika.dart';
+import 'package:fizika/data/jsons/lessons/molecular.dart';
+import 'package:fizika/data/jsons/lessons/optics.dart';
 import 'package:fizika/data/models/lesson_model.dart';
 import 'package:fizika/view/screens/lab_screen.dart';
 import 'package:fizika/view/screens/nazariya_screen.dart';
@@ -24,32 +30,46 @@ class DetailsScreen extends StatefulWidget {
 
 class _DetailsScreenState extends State<DetailsScreen> {
   LessonModel? data;
-  late YoutubePlayerController _controller;
-
-  // Youtube video ID'sini o'zgartirmaymiz.
+  late List<YoutubePlayerController> _controllers;
 
   @override
   void initState() {
     super.initState();
+    _controllers = [];
 
     if (widget.modulId == 1) {
       data = mexanikaLessonsData[widget.lessonId - 1];
+    } else if (widget.modulId == 2) {
+      data = molecularData[widget.lessonId - 1];
+    } else if (widget.modulId == 3) {
+      data = electMagnitData[widget.lessonId - 1];
+    } else if (widget.modulId == 4) {
+      data = optikaData[widget.lessonId - 1];
+    } else if (widget.modulId == 5) {
+      data = atomYadroData[widget.lessonId - 1];
     }
-    final String _videoId = data?.video ?? "xoxP3ccR5eI";
 
-    _controller = YoutubePlayerController(
-      initialVideoId: _videoId,
-      flags: const YoutubePlayerFlags(
-        autoPlay: false,
-        mute: false,
-        loop: false,
-      ),
-    );
+    final List<String> videoIds = data?.resources ?? [];
+
+    if (videoIds.isNotEmpty) {
+      _controllers = videoIds.map((videoId) {
+        return YoutubePlayerController(
+          initialVideoId: videoId,
+          flags: const YoutubePlayerFlags(
+            autoPlay: false,
+            mute: false,
+            loop: false,
+          ),
+        );
+      }).toList();
+    }
   }
 
   @override
   void dispose() {
-    _controller.dispose();
+    for (final controller in _controllers) {
+      controller.dispose();
+    }
     super.dispose();
   }
 
@@ -93,17 +113,17 @@ class _DetailsScreenState extends State<DetailsScreen> {
           children: [
             data != null
                 ? VideoScreen(
-                    controller: _controller,
-                    question: data?.question,
+                    controllers: _controllers,
+
                     resources: data?.resources,
                   )
                 : Center(child: Text("Ma'lumot topilmadi")),
             data != null
                 ? NazariyaScreen(texts: data!.texts!)
                 : Center(child: Text("Ma'lumot topilmadi")),
-
             data != null
                 ? LabScreen(
+                    question: data?.question,
                     labDesc: data!.labDesc,
                     labImages: data!.labImage,
                     labTools: data!.labTools,
